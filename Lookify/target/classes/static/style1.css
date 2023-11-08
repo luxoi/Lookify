@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:ital,wght@1,300&family=Sedgwick+Ave+Display&display=swap');
+body{
+     font-family: 'Poppins', sans-serif;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4f85bb+0,4f85bb+100;Blue+3D+%239 */
+	background: #4f85bb; /* Old browsers */
+	background: -moz-linear-gradient(left,  #4f85bb 0%, #4f85bb 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #4f85bb 0%,#4f85bb 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #4f85bb 0%,#4f85bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#4f85bb',GradientType=1 ); /* IE6-9 */
+	
+
+}
+.stokify-contenedor {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px 800px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 10px;
+    
+    }
+.stokify-contenedor .box{
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.a{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.b{
+   justify-content: center;
+}
+#cajita{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.c{
+    
+    display: flex;
+    flex-direction: column;
+}
+.d{
+    display: grid;
+    grid-template-columns: 510px 510px 510px;
+    
+}
+.playlist-title{
+    font-size: 40px;
+    align-self: flex-start;
+}
+.search-bar{
+    align-self: center;
+}
+.search-bar input{
+    width: 210px;
+    position: relative;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+.search-bar button{
+    position: relative;
+    right: 40px;
+    background-color: transparent;
+    border: none;
+    bottom: 3px;
+}
+.search-bar button:hover{
+    transform: scale(1.2);
+   
+}
+.playlists{
+    align-self: center;
+    align-self: flex-start;
+    font-size: 30px;
+
+}
+.playlist-li{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding: 20px 40px 20px 0px;
+    
+    
+    
+}
+.playlist-li a{
+    align-self: center;
+    text-decoration: none;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+}
+.playlistphoto{
+    width: 50px;
+    height: 50px;
+
+}
+
+.grid-title{
+    font-size: 50px;
+    border-bottom: 1px solid black;
+}
+
+.box .contenedor-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.cancion{
+    font-size: 30px;
+    padding-left: 20px;
+    color: red;
+}
+.delete{
+    width: 80px;
+    height: 20px;
+    position: relative;
+    margin: auto;
+
+}
+.cancion1{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height:50px ;
+}

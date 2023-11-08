@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+  body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2ff52+73,91e842+100 */
+background: rgb(210,255,82); /* Old browsers */
+background: -moz-linear-gradient(left,  rgb(210,255,82) 73%, rgb(145,232,66) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgb(210,255,82) 73%,rgb(145,232,66) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgb(210,255,82) 73%,rgb(145,232,66) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=1 ); /* IE6-9 */
+
+
+    }
+
+    .welcome{
+        font-size: 90px;
+        align-self: center;
+        color: black;
+        text-shadow: 5px 3px 4px black;
+    }
+    .container { 
+        text-align: center;
+        padding-top: 150px;
+        font-size: 30px;
+        position: inline
+ 
+        
+
+    }
+    .link{
+        display: inline-block;
+    }
+    .sl{
+        text-decoration: none;
+        font-size: 45px;
+        transition: 1s;
+    }
+
+    .sl:hover{
+        font-size: 80px;
+        color: red;
+        padding-bottom: 20px;
+    }
+    .clickhere{
+        display: inline;
+        position: relative;
+        left: 80px;
+        color: red;
+    }
